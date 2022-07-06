@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Anan Customer, Magento 2.4 custom customer supported aws cognito
+ * php version 8.1
+ * 
+ * @category Admin Customer
+ * @package  Aws Cognito
+ * @author   Anan Fauzi <mr.ananfauzi@gmail.com>
+ * @license  MIT license <https://opensource.org/licenses/MIT>
+ * @link     https://github.com/ananfauzi
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <block class="Anan\Customer\Block\Form\Register" name="customer_form_register" template="Anan_Customer::form/register.phtml" />
+</page>
